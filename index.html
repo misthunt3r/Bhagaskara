@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bhagaskara - responsive template practice</title>
+
+    <!-- Bootstrap & other external css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body class="noIE">
+<!-- Otwierająca sekcja z obrazkiem, tytułem, mottem, etc / Opening picture section with title, motto, etc.-->
+    <div class="cityview">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1 col-sm-2 col-md-3"></div>
+                <div class="col-xs-10 col-sm-8 col-md-6 title">Bhaga<span class="purple">skara</span>.</div>
+                <div class="col-xs-1 col-sm-2 col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 white mainLead">Fusce rutrum pretium lorem semper nulla.</div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 white lead">Vestibulum ornare cursus nisl, fermentum tincidunt libero pretium et. Maecenas interdum ligula non fermentum fringilla.</div>
+            </div>
+            <div class="row margin-24">
+                <div class="col-xs-12 col-sm-1 col-md-3 col-lg-4"></div>
+                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-2"><div id="services-div"><a href="#"><img src="images/services.png"></a></div></div>
+                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-2"><div id="portfolio-div"><a href="#"><img src="images/portfolio.png"></a></div></div>
+                <div class="col-xs-12 col-sm-1 col-md-3 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2"><div id="about-div"><a href="#"><img src="images/about.png"></a></div></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2"><div id="team-div"><a href="#"><img src="images/team.png"></a></div></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-4"><div id="blog-div"><a href="#"><img src="images/blog.png"></a></div></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2"><div id="contact-div"><a href="#"><img src="images/contact.png"></a></div></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><div id="scroller-div"><a href="#"><img src="images/scroller.png"></a></div></div>
+            </div>
+        </div>
+    </div>
+<!-- Sekcja menu/navbar / menu/mavbar section-->
+    <div class="container whiterow">
+        <div class="container animated animatedEntrance">
+        <div class="row">
+            <div class="logmenu col-md-2"><div><a href="#">Bhagas<span class="purple">kara</span>.</a></div></div>
+            <div class="col-md-7 col-md-offset-3">
+                <ul class="navmenu">
+                    <li><div><a href="#">home</a></div></li>
+                    <li><div><a href="#">about</a></div></li>
+                    <li><div><a href="#">team</a></div></li>
+                    <li><div><a href="#">services</a></div></li>
+                    <li><div><a href="#">portfolio</a></div></li>
+                    <li><div><a href="#">blog</a></div></li>
+                    <li><div><a href="#">contact</a></div></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+<!--Sekcja główna / main features -->
+    <div class="container greyrow">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3 centered margin-100">
+                    <a href="#" class="noHover"><img src="images/heart.png"/><img src="images/heart-pink.png" class="hoverImg"/></a><br>
+                    <p class="colheader">Build with love</p>
+                    <p class="coltext">Fusce facilis velis libero, nec dignissim lacussagitis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+            </div>
+            <div class="col-md-3 centered margin-100">
+                    <a href="#" class="noHover"><img src="images/diamond.png"/><img src="images/diamond-pink.png" class="hoverImg"/></a><br>
+                    <p class="colheader">Clean and modern</p>
+                    <p class="coltext">Fusce facilis velis libero, nec dignissim lacussagitis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+            </div>
+            <div class="col-md-3 centered margin-100">
+                    <a href="#" class="noHover"><img src="images/cup.png"/><img src="images/cup-pink.png" class="hoverImg"/></a><br>
+                    <p class="colheader">Easy to use</p>
+                    <p class="coltext">Fusce facilis velis libero, nec dignissim lacussagitis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+            </div>
+            <div class="col-md-3 centered margin-100">
+                    <a href="#" class="noHover"><img src="images/phone.png"/><img src="images/phone-pink.png" class="hoverImg"/></a><br>
+                    <p class="colheader">Fully responsive</p>
+                    <p class="coltext">Fusce facilis velis libero, nec dignissim lacussagitis non. Sed nec porta ante. Pellentesque habitant morbi tristique senectus et.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- Sekcja o nas / About us section-->
+    <div class="container whiterow">
+        <div class="container">
+        <div class="row sectionLead">
+            <div class="col-md-12">
+                <div class="sectionLeadContainer">
+                    <img src="images/left-bottom-corner.png" class="bottomLeft"/>
+                    <p class="sectionLead">About <span class="purple">us</span></p>
+                    <img src="images/right-upper-corner.png" class="topRight" />
+                </div>
+            </div>
+        </div>
+        <div class="row rowApple">
+            <div class="col-md-7"><div><img src="images/AppleMac.png" class="img-responsive" /></div></div>
+            <div class="col-md-5">
+                <div class="buttonContainer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare eu orci eleifend blandit. Quisque sodales erat placerat nisi aliquet lobortis. Quisque lobortis molestie lacinia. Sed porta nisl eget mi convallis, volutpat tincidunt magna varius. In varius consectetur neque, quis aliquet nibh blandit ultricies. Nam convallis elit eu accumsan tempor. Fusce sed lacus ac felis maximus elementum. Morbi elit dui, viverra vel lacus quis, mollis laoreet sapien. Donec eu odio pretium, hendrerit nisi eu, dapibus nulla. Nullam hendrerit nulla quis tortor sagittis venenatis. Phasellus porttitor dapibus sagittis. </p>
+                    <p><a href="#" class="btn learnMoreBtn" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- Druga sekcja z obrazkiem i hasłem/mottem / 2nd picture section with motto-->
+    <div class="sideview margin-100 padding-100">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-md-12"><img src="images/study.png" /></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 white mainLead">We and lorem ipsum your aliquam</div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+<!-- Sekcja o zespole / Our team section-->
+    <div class="container whiterow margin-100">
+        <div class="container">
+        <div class="row sectionLead">
+            <div class="col-md-12">
+                <div class="sectionLeadContainer">
+                    <img src="images/left-bottom-corner.png" class="bottomLeft"/>
+                    <p class="sectionLead">Our <span class="purple">team</span></p>
+                    <img src="images/right-upper-corner.png" class="topRight" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 centered">
+                    <div class="arrowNoHover"><img src="images/arrow-left.png" class="arrows"/><img src="images/arrow-left-pink.png" class="arrows arrowHover"/></div>
+                    <div class="arrowNoHover"><img src="images/arrow-right.png" class="arrows"/><img src="images/arrow-right-pink.png" class="arrows arrowHover"/></div>
+
+                </div>
+            </div>
+            <div class="row margin-100">
+                    <div class="col-md-4 text-center">
+                        <img class="img-circle" src="images/elipse.png">
+                        <p class="sectionCapital">anne hathaway</p>
+                        <p class="sectionTitle">CEO/Marketing Guru</p>
+                        <div class="centered">
+                            <img src="images/Socialicon1.png" />
+                            <img src="images/Socialicon3.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="img-circle" src="images/elipse.png">
+                        <p class="sectionCapital">anne hathaway</p>
+                        <p class="sectionTitle">CEO/Marketing Guru</p>
+                        <div class="centered">
+                            <img src="images/Socialicon1.png" />
+                            <img src="images/Socialicon3.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="img-circle" src="images/elipse.png">
+                        <p class="sectionCapital">anne hathaway</p>
+                        <p class="sectionTitle">CEO/Marketing Guru</p>
+                        <div class="centered">
+                            <img src="images/Socialicon1.png" />
+                            <img src="images/Socialicon3.png" />
+                        </div>
+                    </div>
+            </div>
+        </div>
+<!-- Sekcja o naszych umiejętnościach / Our skills section-->
+        <div class="row sectionLead">
+            <div class="col-md-12">
+                <div class="sectionLeadContainer">
+                    <img src="images/left-bottom-corner.png" class="bottomLeft"/>
+                    <p class="sectionLead">Our <span class="purple">skills</span></p>
+                    <img src="images/right-upper-corner.png" class="topRight" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="row progressRow"><span class="left progressTitle">web design</span><span class="right progressPercent">90%</span></div>
+                <div class="progress">
+                    <div id="pb1" class="progress-bar" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                    </div>
+                </div>
+                <div class="row progressRow"><span class="left progressTitle">html/css</span><span class="right progressPercent">75%</span></div>
+                <div class="progress">
+                    <div id="pb2" class="progress-bar" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="row progressRow"><span class="left progressTitle">graphic design</span><span class="right progressPercent">70%</span></div>
+                <div class="progress">
+                    <div id="pb3" class="progress-bar" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    </div>
+                </div>
+                <div class="row progressRow"><span class="left progressTitle">ui / ux</span><span class="right progressPercent">85%</span></div>
+                <div class="progress">
+                    <div id="pb4" class="progress-bar" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        </div>
+    </div>
+<!-- Trzecia sekcja z obrazkiem i motto / 3rd picture & motto section-->
+    <div class="servicesview margin-100 padding-100">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-md-12 margin-bottom-50"><img src="images/services.png" /></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 white mainLead">Our services will lorem and ipsum your aliquam</div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+<!-- Sekcja z wybranymi statystykami i cytatami klientów / Statistics section with client quotes-->
+    <div class="container whiterow">
+        <div class="container">
+        <div class="row margin-100">
+            <div class="col-md-3 centered">
+                <p class="mainLead black bold"><span id="count1">0</span></p>
+                <p class="sectionTitle black">Lorem ipsum</p>
+            </div>
+            <div class="col-md-3 centered">
+                <p class="mainLead black bold"><span id="count2">0</span>%</p>
+                <p class="sectionTitle black">Lorem ipsum</p>
+            </div>
+            <div class="col-md-3 centered">
+                <p class="mainLead black bold"><span id="count3">0</span></p>
+                <p class="sectionTitle black">Lorem ipsum</p>
+            </div>
+            <div class="col-md-3 centered">
+                <p class="mainLead black bold"><span id="count4">0</span></p>
+                <p class="sectionTitle black">Lorem ipsum</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 centered">
+                <div class="row margin-bottom-50"><img src="images/elipse.png" /></div>
+                <div class="row margin-bottom-50"><p class="mainLead grey bold">"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"</p></div>
+                <div class="row margin-bottom-50"><p class="signature grey bold">lesalle christopher, pinterest</p></div>
+                <div class="row margin-bottom-50 centered">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- Sekcja z portfolio / Our portfolio section-->
+    <div class="container whiterow">
+        <div class="container">
+            <div class="row sectionLead">
+                <div class="col-md-12">
+                    <div class="sectionLeadContainer sectionLeadPortfolio">
+                        <img src="images/left-bottom-corner.png" class="bottomLeft"/>
+                        <p class="sectionLead">Our <span class="purple">portfolio</span></p>
+                        <img src="images/right-upper-corner.png" class="topRight" />
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-bottom-50">
+                <div class="col-md-12 centered">
+                    <ul class="portfolioMenuWrapper">
+                        <li><a href="#"><div class="portfolioMenu bold">all</div></a></li>
+                        <li><a href="#"><div class="portfolioMenu bold">web</div></a></li>
+                        <li><a href="#"><div class="portfolioMenu bold">apps</div></a></li>
+                        <li><a href="#"><div class="portfolioMenu bold">icons</div></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="imgGallery">
+                <div class="col-md-4 centered">
+                    <div>
+                        <div>
+                            <a class="fancybox" rel="group"  href="images/Img1-big.png"><img src="images/Img1.png" class="img-responsive pictureIcon"/></a>
+                        </div>
+                        <p class="pictureTitle bold black">Neque Poro Quisquam</p>
+                        <p class="pictureClass black">apps, icons, ui</p>
+                    </div>
+                </div>
+                <div class="col-md-4 centered">
+                    <div>
+                        <div>
+                            <a class="fancybox" rel="group"  href="images/Img2-big.png"><img src="images/Img2.png" class="img-responsive pictureIcon"/></a>
+                        </div>
+                        <p class="pictureTitle bold black">Neque Poro Quisquam</p>
+                        <p class="pictureClass black">apps, icons, ui</p>
+                    </div>
+                </div>
+                <div class="col-md-4 centered">
+                    <div>
+                        <div>
+                            <a class="fancybox" rel="group"  href="images/Img3-big.png"><img src="images/Img3.png" class="img-responsive pictureIcon"/></a>
+                        </div>
+                        <p class="pictureTitle bold black">Neque Poro Quisquam</p>
+                        <p class="pictureClass black">apps, icons, ui</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 centered">
+                    <div>
+                        <div>
+                            <a class="fancybox" rel="group"  href="images/Img4-big.png"><img src="images/Img4.png" class="img-responsive pictureIcon"/></a>
+                        </div>
+                        <p class="pictureTitle bold black">Neque Poro Quisquam</p>
+                        <p class="pictureClass black">apps, icons, ui</p>
+                    </div>
+                </div>
+                <div class="col-md-4 centered">
+                    <div>
+                        <div>
+                            <a class="fancybox" rel="group"  href="images/Img5-big.png"><img src="images/Img5.png" class="img-responsive pictureIcon"/></a>
+                        </div>
+                        <p class="pictureTitle bold black">Neque Poro Quisquam</p>
+                        <p class="pictureClass black">apps, icons, ui</p>
+                    </div>
+                </div>
+                <div class="col-md-4 centered">
+                    <div>
+                        <div>
+                            <a class="fancybox" rel="group"  href="images/img6-big.png"><img src="images/img6.png" class="img-responsive pictureIcon"/></a>
+                        </div>
+                        <p class="pictureTitle bold black">Neque Poro Quisquam</p>
+                        <p class="pictureClass black">apps, icons, ui</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-bottom-50 margin-top-50">
+                <div class="col-md-12 centered">
+                    <p><a href="#" class="btn learnMoreBtn" role="button">Watch more</a></p>
+                </div>
+            </div>
+<!--Sekcja formularza kontaktowego / Contact form section -->
+            <div class="row sectionLead">
+                <div class="col-md-12">
+                    <div class="sectionLeadContainer sectionLeadPortfolio">
+                        <img src="images/left-bottom-corner.png" class="bottomLeft"/>
+                        <p class="sectionLead">Get <span class="purple">in touch</span></p>
+                        <img src="images/right-upper-corner.png" class="topRight" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="centered">
+                        <form action="mailto:misthunt3r@gmail.com" method="post" id="messageForm">
+                            <div class="formContainer">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Your name" class="form-control" id="name" required/><br>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="Your e-mail" class="form-control" id="email" required/><br>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Your message" class="form-control" id="message" required></textarea><br>
+                                </div>
+                                    <button type="submit" class="btn learnMoreBtn margin-bottom-100" name="sendBtn" id="sendBtn">Send e-mail</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="centered">
+                        <div class="formTipContainer">
+                            <p class="formInfo margin-bottom-25 black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed augue neque. Pellentesque laoreet, nisi a mattis porta, est erat pulvinar lectus, vel porta nisi ex sit amet tortor. Suspendisse placerat sapien eu ante lacinia, sed tincidunt mauris convallis. Sed condimentum consectetur urna ut elementum. Sed ac libero vehicula, egestas dui eget, tincidunt odio.</p>
+                            <p class="formAdress bold black margin-bottom-25">1600 Pensylvania Ave NW, Washington<br>DC 200500, United Stated of America.</p>
+                            <p class="formAdress bold black margin-bottom-25">T: (202) 456-1111<br>M: (202) 456-1212</p>
+                            <div class="mediaContainer">
+                                <img src="images/Socialicon1.png" class="mediaIcon"/>
+                                <img src="images/Socialicon2.png" class="mediaIcon"/>
+                                <img src="images/Socialicon3.png" class="mediaIcon"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 centered exitLogo margin-top-50 margin-bottom-100 bold">Bhaga<span class="purple">skara</span>.</div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- jQuery & Bootstrap-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Plugins and scripts -->
+<!--Waypoints-->
+<script src="js/waypoints.min.js"></script>
+<!--Fancybox-->
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+<!--Animated number counter-->
+<script src="js/jquery.animateNumber.js"></script>
+<!--My code.js-->
+<script src="js/code.js"></script>
+</body>
+</html>
